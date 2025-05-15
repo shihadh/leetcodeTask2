@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
   var n=10;
    var count = 0;
