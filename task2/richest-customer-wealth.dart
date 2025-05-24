@@ -1,7 +1,9 @@
 void main(){
-  var accounts = [[1,2,3],[3,2,1]];
+  var accounts = [[1,5],[7,3],[3,5]];
+  var sum =[];
   for(var i=0;i<accounts.length;i++){
-    
+    sum.add(accounts[i].reduce((a,b)=>a+b));
   }
-  print(accounts[0]);
+  sum.sort();
+  print(sum.last);
 }
